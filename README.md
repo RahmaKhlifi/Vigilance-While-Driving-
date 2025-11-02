@@ -26,8 +26,6 @@ Tools and notebooks for analyzing vigilance / PSG (polysomnography) segments and
 
 VigilanceProject contains code and notebooks to load, process, and visualize physiological recordings (e.g., PSG) and associated metadata. The primary analysis and visualization are contained in the Jupyter notebook `vigilanceproject.ipynb`.
 
-Replace or extend this section with a one-paragraph description of the project's purpose, algorithm(s), or research question.
-
 ## Features
 
 - Load PSG data and hypnograms
@@ -89,7 +87,6 @@ jupyter lab    # or jupyter notebook
 python src/visualize.py --input data/raw/sub-01.edf --start 0 --duration 120
 ```
 
-Replace with your actual CLI options if different.
 
 ## Example — visualize a PSG segment
 
@@ -139,7 +136,6 @@ data/
     sub-02_hypnogram.csv
 ```
 
-Add download instructions or sample dataset links (e.g., PhysioNet) if you use public datasets.
 
 ## Notebooks & scripts
 
@@ -161,8 +157,6 @@ Lint and formatting:
 black .
 flake8
 ```
-
-Continuous integration suggestion: add GitHub Actions to run `pytest` and `flake8` on PRs.
 
 ## Contributing
 
